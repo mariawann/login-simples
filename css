@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+  
+    background: url(https://images.unsplash.com/photo-1465147264724-326b45c3c59b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMTYzMjEzNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid #515151;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+h1{
+  display: block;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.input-container{
+    display: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    padding-bottom: 55px;
+    
+}
+  
+.input-container input{
+    display: center;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius:  10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 40px;
+
+}
+
+.input-container input::placeholder{
+    color: #fff;
+}
+
+.input-container svg{
+    position: absolute;
+    right: 40px;
+    top: 30%;
+    margin-top: 10px;
+
+}
+
+.forget{
+    font-size: 22px;
+    text-align:center;
+    padding: 10px;
+    height: 90px;
+    margin-top: 20px;
+    color: #f7ecec;
+    text-decoration:none;
+    cursor: pointer;
+    
+    
+
+}
+
+.forget:hover{
+    text-decoration: underline;
+}
+
+.submit-button{
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+    background-color: #fff5f5;
+    border-radius: 25px;
+    border: none;
+    font-weight: 300px;
+    margin-bottom: 10% ;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+
+.submit-button:hover{
+    background-color: #aca3a3;
+
+}
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+
+}
+.register-link p {
+    font-size: 20px ;
+    color: #000000;
+    font-weight: 500px;
+    
+}
+.register-link p a{
+    font-size: 20px ;
+    color: #000000;
+    font-weight: 700px;
+text-decoration: none;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
